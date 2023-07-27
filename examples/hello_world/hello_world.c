@@ -20,7 +20,7 @@ void task1_entry(void *arg)
 void task2_entry(void *arg)
 {
     while (1) {
-        printf("***This is a cat\r\n");
+        printf("***I am task2\r\n");
         tos_task_delay(1000);
     }
 }
